@@ -16,9 +16,9 @@ body {
 header {
     width: 100%;
     height: 50px;
-    background-color: rgb(155, 224, 201);
     display: flex;
     align-items: center;
+    
 }
 
 .container {
@@ -56,10 +56,12 @@ header {
 }
 
 .jumbotron {
-    background-color: blue;
     height: 450px;
     display: flex;
     align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 /* COLONNE */
@@ -143,6 +145,8 @@ footer {
 
 /* CONTENUTI */
 
+/* CONTENUTI HEADER */
+
 .content-bianco {
     color: white;
     display: flex;
@@ -152,6 +156,7 @@ footer {
 
 .opzione {
     font-size: 0.8em;
+    padding: 8px;
 }
 
 .button-head {
@@ -170,3 +175,40 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
+
+.container-header {
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* contenuto-jumbotron */
+.opening {
+    color:white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-top: 40px;
+}
+
+.jumbotron p {
+    font-size: 0.75em;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+
+.download-1 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    border-radius: 2em 2em;
+    font-weight:  600;
+    display: flex;
+}
+
