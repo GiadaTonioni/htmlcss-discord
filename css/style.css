@@ -221,3 +221,14 @@ h1 {
     flex-wrap: wrap;
 }
 
+/* sezione-1 */
+.immagine-1 {
+    width: 100%;
+    display: flex;
+}
+
+.content-section {
+    display: flex;
+    justify-content: ;
+}
+
