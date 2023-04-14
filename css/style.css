@@ -100,10 +100,7 @@ header {
 }
 
 .col-60 {
-    background-color: pink;
     width: 60%;
-    height: 300px;
-    border: 1px dashed black;
 }
 
 .col-70 {
@@ -199,7 +196,7 @@ h1 {
     line-height: 1.5em;
 }
 
-.download-1 {
+.download {
     background-color: white;
     border: none;
     color: black;
@@ -208,7 +205,19 @@ h1 {
     text-decoration: none;
     font-size: 0.9em;
     border-radius: 2em 2em;
-    font-weight:  600;
+    margin-top: 20px;
+}
+
+.nero {
+    background-color: black;
+    border: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.content {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
