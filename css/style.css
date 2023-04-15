@@ -103,11 +103,22 @@ header {
     width: 60%;
 }
 
-.col-70 {
+.col-70-start {
     width: 70%;
     background-color: lightblue;
     height: 350px;
     border: 1px dashed black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col-70-end {
+    width: 70%;
+    background-color: lightblue;
+    height: 350px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .col-100 {
@@ -222,7 +233,7 @@ h1 {
 }
 
 /* sezione-1 */
-.immagine {
+.immagine-start {
     width: 80%;
     display: flex;
 }
@@ -245,5 +256,6 @@ h1 {
 /* sezione-2 */
 .content-cloud {
     display: flex;
+    justify-content: flex-end;
 }
 
