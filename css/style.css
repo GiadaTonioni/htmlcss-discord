@@ -1,4 +1,4 @@
-             *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -229,6 +229,16 @@ h1 {
 
 .content-section {
     display: flex;
-    justify-content: ;
+}
+
+.sec-title {
+    font-size: 2.2em;
+}
+
+.sec-p {
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-top: 20px;
 }
 
