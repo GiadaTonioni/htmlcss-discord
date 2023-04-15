@@ -35,7 +35,7 @@ header {
 }
 
 .sezione-grigia-1 {
-    background-color: grey;
+    background-image: url(../img/wave.svg);
     height: 450px;
     align-items: center;
     display: flex;
@@ -222,8 +222,8 @@ h1 {
 }
 
 /* sezione-1 */
-.immagine-1 {
-    width: 100%;
+.immagine {
+    width: 80%;
     display: flex;
 }
 
@@ -240,5 +240,10 @@ h1 {
     font-weight: 500;
     line-height: 1.5em;
     margin-top: 20px;
+}
+
+/* sezione-2 */
+.content-cloud {
+    display: flex;
 }
 
