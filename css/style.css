@@ -50,7 +50,6 @@ header {
 
 .sezione-nera {
     background-color: rgb(23, 23, 23);
-    height: 450px;
     align-items: center;
     display: flex;
 }
@@ -67,16 +66,10 @@ header {
 /* COLONNE */
 .col-10 {
     width: 10%;
-    background-color: pink;
-    height: 25px;
-    border: 1px dashed black;
 }
 
 .col-17 {
     width: 17%;
-    background-color: lightseagreen;
-    height: 350px;
-    border: 1px dashed white;
 }
 
 .col-25 {
@@ -89,6 +82,15 @@ header {
     width: 30%;
     margin-top: 100px;
     margin-bottom:50px;
+}
+
+.col-30-bot {
+    width: 30%;
+    margin-top: 100px;
+    margin-bottom:50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .col-50 {
@@ -127,11 +129,8 @@ header {
 .container-foot {
     width: 70%;
     margin: 0 auto;
-    background-color: aquamarine;
-    height: 50px;
     align-items: flex-end;
     display: flex;
-
 }
 
 footer { 
@@ -293,4 +292,49 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+}
+
+/* sezione-5 */
+.flag {
+    width: 20%;
+    display: flex;
+}
+
+ul {
+   list-style-type: none; 
+}
+
+.first {
+    color: rgb(87, 110, 214);
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+li, .ita {
+    color: white;
+    font-weight: 400;
+    font-size: 0.8em; 
+    text-align: left;
+    display: flex;
+    line-height: 2em;
+}
+
+.content-bot {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    border-bottom: 2px solid rgb(87, 110, 214);
+}
+
+/* footer */
+.button-end {
+    background-color: rgb(87, 110, 214);
+    border: none;
+    color:white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
+    border-radius: 2em 2em;
+    font-weight: bold;
 }
