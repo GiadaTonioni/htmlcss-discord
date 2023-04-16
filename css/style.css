@@ -87,9 +87,8 @@ header {
 
 .col-30 {
     width: 30%;
-    background-color: pink;
-    height: 350px;
-    border: 1px dashed black;
+    margin-top: 100px;
+    margin-bottom:50px;
 }
 
 .col-50 {
@@ -105,27 +104,20 @@ header {
 
 .col-70-start {
     width: 70%;
-    background-color: lightblue;
-    height: 350px;
-    border: 1px dashed black;
     display: flex;
     justify-content: flex-start;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .col-70-end {
     width: 70%;
-    background-color: lightblue;
-    height: 350px;
-    border: 1px dashed black;
     display: flex;
     justify-content: flex-end;
 }
 
 .col-100 {
     width: 100%;
-    background-color: green;
-    height: 800px;
-    border: 1px dashed black;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -289,12 +281,16 @@ h1 {
     justify-content: center;
 }
 
-.content-button-bot {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.blue {
+    background-color: rgb(87, 110, 214);
+    color: white;
+    padding: 10px 10px;
+    align-self: center;
 }
 
-.button-bottom {
-    display: flex;
+.back-scritta {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
