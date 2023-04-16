@@ -35,15 +35,15 @@ header {
 }
 
 .sezione-grigia-1 {
-    background-image: url(../img/wave.svg);
-    height: 450px;
+    background-color: rgb(231, 231, 231);
+    height: 500px;
     align-items: center;
     display: flex;
 }
 
 .sezione-grigia-2 {
-    background-color: grey;
-    height: 550px;
+    background-color:  rgb(231, 231, 231);
+    height: 800px;
     align-items: center;
     display: flex;
 }
@@ -124,8 +124,11 @@ header {
 .col-100 {
     width: 100%;
     background-color: green;
-    height: 450px;
+    height: 800px;
     border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* FOOTER */
@@ -234,7 +237,7 @@ h1 {
 
 /* sezione-1 */
 .immagine-start {
-    width: 80%;
+    width: 90%;
     display: flex;
 }
 
@@ -254,8 +257,44 @@ h1 {
 }
 
 /* sezione-2 */
-.content-cloud {
+.container-wave {
     display: flex;
-    justify-content: flex-end;
 }
 
+.wave-up {
+    opacity: 10%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.wave-down {
+    transform: scale(-1);
+    opacity: 10%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+ 
+/* sezione-4 */
+.text-center {
+    text-align: center;
+}
+
+.immagine-big {
+    display: flex;
+    width: 90%;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.content-button-bot {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-bottom {
+    display: flex;
+}
