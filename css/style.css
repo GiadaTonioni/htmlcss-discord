@@ -66,6 +66,8 @@ header {
 /* COLONNE */
 .col-10 {
     width: 10%;
+    display: flex;
+    margin-top: 15px;
 }
 
 .col-17 {
@@ -86,10 +88,8 @@ header {
 
 .col-30-bot {
     width: 30%;
-    margin-top: 100px;
-    margin-bottom:50px;
     display: flex;
-    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -97,7 +97,6 @@ header {
     width: 50%;
     height: 25px;
     margin: 12px 0px;
-
 }
 
 .col-60 {
@@ -135,7 +134,7 @@ header {
 
 footer { 
     width: 100%;
-    height: 50px;
+    height: 80px;
     background-color: rgb(23, 23, 23);
 }
 
@@ -143,6 +142,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-bottom: 30px;
 }
 
 /* CONTENUTI */
@@ -291,13 +291,13 @@ h1 {
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-position: contain;
     background-size: 100%;
 }
 
 /* sezione-5 */
 .flag {
-    width: 20%;
-    display: flex;
+    width: 15%;
 }
 
 ul {
@@ -310,7 +310,7 @@ ul {
     font-size: 0.8em;
 }
 
-li, .ita {
+li,.ita {
     color: white;
     font-weight: 400;
     font-size: 0.8em; 
@@ -319,11 +319,31 @@ li, .ita {
     line-height: 2em;
 }
 
+.ita {
+    display: inline-block;
+    line-height: 5em;
+}
+
 .content-bot {
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
     border-bottom: 2px solid rgb(87, 110, 214);
+}
+
+.content-start {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.start {
+    display: flex;
+    color: rgb(87, 110, 214);
+}
+
+.download-blue {
+    display: flex;
 }
 
 /* footer */
