@@ -268,6 +268,7 @@ h1 {
 /* sezione-4 */
 .text-center {
     text-align: center;
+    display: flex;
 }
 
 .immagine-big {
@@ -280,19 +281,12 @@ h1 {
     justify-content: center;
 }
 
-.blue {
-    background-color: rgb(87, 110, 214);
-    color: white;
-    padding: 10px 10px;
-    align-self: center;
-}
-
 .back-scritta {
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-position: contain;
     background-size: 100%;
+    display: flex;
 }
 
 /* sezione-5 */
@@ -337,6 +331,11 @@ li,.ita {
     flex-wrap: wrap;
 }
 
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
 .start {
     display: flex;
     color: rgb(87, 110, 214);
@@ -344,6 +343,20 @@ li,.ita {
 
 .download-blue {
     display: flex;
+    background-color: rgb(87, 110, 214);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    border-radius: 2em 2em;
+    margin-top: 20px;
+    
+}
+
+.icons {
+    color: white;
 }
 
 /* footer */
@@ -358,3 +371,5 @@ li,.ita {
     border-radius: 2em 2em;
     font-weight: bold;
 }
+
+
